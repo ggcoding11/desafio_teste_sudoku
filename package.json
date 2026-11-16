@@ -1,0 +1,21 @@
+{
+  "name": "desafio_teste_sudoku",
+  "version": "1.0.0",
+  "description": "Lógica do Sudoku binário 6 x 6 com casos de teste em Jest",
+  "main": "src/partida.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "jest",
+    "test:coverage": "jest --coverage"
+  },
+  "author": "Gustavo de Almeida Gomes",
+  "license": "ISC",
+  "jest": {
+    "collectCoverageFrom": [
+      "src/**/*.js"
+    ]
+  },
+  "devDependencies": {
+    "jest": "30.5.2"
+  }
+}
